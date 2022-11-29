@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
+import Bar from './Bar';
 import '../App.css'
 function Menu() {
 
@@ -8,7 +9,8 @@ function Menu() {
   
    <div className='navbar'>
    <ul className='nav-container'>
-   <li className='logo'>Logo</li>
+    <li className='logo'>Free<span className="logoright">ngine</span></li>
+    <li className='bar-button'><Bar/></li>
     <li className='list'>Contact Us</li>
     <li className='list'>Our work</li>
     <li className='list'>About us</li>
