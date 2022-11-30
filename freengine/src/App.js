@@ -1,18 +1,19 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Bottom from './Components/Bottom';
-import Cards from './Components/Cards';
+
 import Footer from './Components/Footer';
-import Hero from './Components/Hero';
+
 import Menu from './Components/Menu';
-import Portifolio from './Components/Portifolio';
+
+import {Switch, Route}from 'react-router-dom'
+import Home from './Components/Pages/Home';
 function App() {
   return (
     <div>
+   
     <Menu/>
-    <Hero/>
-    <Cards/>
-    <Portifolio/>
+    <Home/>
     <Bottom/>
     <Footer/>
     </div>
