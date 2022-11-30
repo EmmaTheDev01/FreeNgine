@@ -31,7 +31,7 @@
 
 .list {
   display: block;
-  margin-top: -50px;
+
   float: right;
   padding: 1rem 2rem;
   font-size: 2ch;
@@ -50,11 +50,8 @@
 }
 
 .logo {
-  display: flex;
-  color: rgb(255, 255, 255);
-  font-size: 3ch;
-  font-weight: 900;
-  font-family:Arial, Helvetica, sans-serif;
+  float: left;
+ 
 }
 
 /*Hero Section CSS*/
@@ -411,6 +408,8 @@
   }
   .bar-button
   {
+    margin-top: 2rem;
+    padding: 1rem;
     position: relative;
     display: block;
     float: right;

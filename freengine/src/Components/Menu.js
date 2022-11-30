@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import Bar from './Bar';
+import Logo from '../2.png';
 import '../App.css'
 function Menu() {
 
@@ -9,7 +10,7 @@ function Menu() {
   
    <div className='navbar'>
    <ul className='nav-container'>
-    <li className='logo'>Free<span className="logoright">ngine</span></li>
+    <li className='logo'><img src={Logo} /></li>
     <li className='bar-button'><Bar/></li>
     <li className='list'>Contact Us</li>
     <li className='list'>Our work</li>
