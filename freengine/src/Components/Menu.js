@@ -14,6 +14,7 @@ function Menu() {
     <li className='bar-button'><Bar/></li>
     <li className='list'>Contact Us</li>
     <li className='list'>Our work</li>
+    <li className='list'>Services</li>
     <li className='list'>About us</li>
     <li className='list'>Home</li>
    </ul>

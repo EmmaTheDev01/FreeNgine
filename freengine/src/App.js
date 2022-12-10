@@ -6,7 +6,7 @@ import Footer from './Components/Footer';
 
 import Menu from './Components/Menu';
 
-import {Switch, Route}from 'react-router-dom'
+// import {BrowseRouter as Router, Switch, Route}from 'react-router-dom'
 import Home from './Components/Pages/Home';
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
     <Home/>
     <Bottom/>
     <Footer/>
+  
     </div>
   );
 }

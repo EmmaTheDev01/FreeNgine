@@ -33,7 +33,7 @@
   display: block;
 
   float: right;
-  padding: 1rem 2rem;
+  padding: 1rem 1.5rem;
   font-size: 2ch;
 
 }
@@ -63,38 +63,23 @@
   grid-template-columns: auto auto;
   height: 60rem;
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
   background-color: rgb(39, 39, 39);
+  right: 20;
   color: white;
 }
+.left {
 
-.left,
+  padding: 10rem;
+  width: 100%;
+}
+
 .right {
   width: 100%;
-  text-align: center;
-
-
-
-}
-
-.left {
-  padding: 5rem;
-  width: 60%;
   overflow: hidden;
-
-}
-
-.right {
-  width: 60%;
-  overflow: hidden;
-
-
-
 }
 
 .heading {
-  margin-top: 3rem;
+margin: auto;
   display: flex;
   justify-content: flex-start;
   position: relative;
@@ -384,17 +369,15 @@
   color: white;
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 994px) {
   .left {
+    padding: 2rem;
     border: none;
     width: 100%;
   }
 
   .right {
-    display: none;
-    border: none;
-    overflow-wrap: unset;
-
+   display: flex;
   }
   .navbar{
     display: block;
@@ -445,6 +428,7 @@
     font-size: 2ch;
   } 
 }
+
 /*Portifolio's card */
 .cards-space{
   display: flex;
@@ -456,15 +440,40 @@ padding: 4rem;
 }
 .work-card{
   position: relative;
-  width: 26rem;
-  height: 40rem;
-  padding: 2rem;
-  border: 1px solid white;
+  width: 22rem;
+  height: 25rem;
+  overflow: hidden;
+  border: 1px solid rgb(128, 126, 126);
+  margin: 2rem;
+  border-radius: 1rem;
+  box-shadow: 5px 2px 8px 2px rgb(90, 90, 90) ;
 }
-.work-card:hover{
-  margin-top: -5rem;
-  height: 48rem;
+.work-card .content{
+  padding: 5rem;
+  
 }
+.work-card .head3{
+  font-weight: 900;
+  font-size: 4ch;
+}
+.work-card  .starz{
+  display: none;
+}
+.work-card:hover .starz{
+  display: block;
+  height: 200px;
+  transition: 3s;
+}
+
+.work-card:hover .content {
+  padding: 2.5rem;
+  transition: 3s;
+  background-color: rgb(255, 255, 255);
+  color: rgb(46, 45, 45);
+  height: 300px;
+}
+
+
 .services-info
 {
   display: block;
@@ -492,4 +501,11 @@ padding: 4rem;
   width: 28rem;
   margin: 1rem;
  
+}
+/* Styling portifolio image */
+.starz{
+  object-fit: cover;
+  margin: 0%;
+  width: 100%;
+  
 }
