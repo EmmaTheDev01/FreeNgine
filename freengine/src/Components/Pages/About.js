@@ -1,8 +1,12 @@
 import React from 'react'
-import '/freengine/src/App.css'
+import './pages.css'
 function About() {
   return (
-    <div>About</div>
+    <div className='about'>
+      <div className='container'>
+            About
+      </div>
+    </div>
   )
 }
 

@@ -19,7 +19,10 @@
   color: white;
 
 }
-
+.link{
+  text-decoration: none;
+  color: white;
+}
 .nav-container {
   width: 80%;
   display: block;
@@ -51,7 +54,13 @@
 
 .logo {
   float: left;
+  margin-top: -25px;
+  cursor: pointer;
  
+}
+.bars{
+  margin-top: -25px;
+  font-size: 2ch;
 }
 
 /*Hero Section CSS*/
@@ -328,9 +337,12 @@ margin: auto;
 }
 
 .link-menu {
-  padding: 0.4rem;
+  text-decoration: none;
   color: rgb(37, 36, 37);
-  ;
+  padding: 0.4rem;
+}
+.link-menu:hover{
+  color: rgb(228, 25, 25);
 }
 
 .bottom-title {
@@ -429,7 +441,8 @@ margin: auto;
   } 
 }
 
-/*Portifolio's card */
+/*Portifolio's card styling*/
+
 .cards-space{
   display: flex;
   flex-wrap: wrap;
@@ -463,6 +476,7 @@ padding: 4rem;
   display: block;
   height: 200px;
   transition: 3s;
+  
 }
 
 .work-card:hover .content {
@@ -473,39 +487,66 @@ padding: 4rem;
   height: 300px;
 }
 
-
-.services-info
-{
-  display: block;
-  text-align: center;
-  justify-content: center;
-}
-
-
-
-.canvas-body {
-  background-color: rgb(39, 39, 39);
-  color: white;
-}
-
-.list-section {
-  list-style-type: none;
-}
-.services-info
-{
-  display: inline-block;
-  padding: 3rem;
- 
-}
-.progress{
-  width: 28rem;
-  margin: 1rem;
- 
-}
 /* Styling portifolio image */
 .starz{
   object-fit: cover;
   margin: 0%;
   width: 100%;
   
+}
+
+/*Media query on portifolio cards */
+
+@media screen and (max-width: 600px) {
+  .portifolio{
+
+    width: 100%;
+  }
+  .cards-space{
+    width: 100%;
+    text-align: start;
+  }
+  .portifolio-title{
+    font-weight: 600;
+    font-size: 3ch;
+  }
+  .work-card .head3{
+    font-weight: 900;
+    font-size: 2ch;
+  }
+  .para{
+   font-size: 1.6ch;
+   padding: 0%;
+  }
+  .work-card{
+    width: 200px;
+  }
+  .work-card .content{
+    padding: 2rem;
+    
+  }
+  .work-card:hover .content {
+    text-align: center;
+    padding: 1rem;
+    transition: 3s;
+    background-color: rgb(255, 255, 255);
+    color: rgb(46, 45, 45);
+    height: 300px;
+  }
+  .work-card:hover .starz{
+    display: block;
+    height: 170px;
+    transition: 2s;
+    
+  }
+}
+/* Styling the offcanvas section */
+.menu-items
+{
+  padding: 0.7rem;
+  list-style-type: none;
+  cursor: pointer;
+}
+.menu-items:hover{
+  color: red;
 }

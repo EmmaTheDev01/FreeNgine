@@ -1,7 +1,7 @@
 import React from 'react'
 import '../App.css'
-import {FaInstagram, FaLinkedin, FaDiscord, FaTelegram, FaGithub, FaFacebook} from 'react-icons/fa'
-
+import {FaInstagram, FaLinkedin, FaDiscord, FaTelegram, FaGithub, FaFacebook} from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 function Bottom() {
   return (
     <div className='bottom'>
@@ -17,10 +17,11 @@ function Bottom() {
           <h1 className='bottom-title'>Important links</h1>
           <div className='bottom-nav'>
                 <ul className='bottom-links'>
-                  <li className='link-menu'>Home</li>
-                  <li className='link-menu'>About us</li>
-                  <li className='link-menu'>Our Work</li>
-                  <li className='link-menu'>Contact us</li>
+                  <Link to="/" className='link-menu' ><li >Home</li></Link>
+                  <Link to='/about' className='link-menu'><li >About us</li></Link>
+                  <Link to="/services" className='link-menu'><li>Servises</li></Link>
+                  <Link to="/work" className='link-menu'><li>Our Work</li></Link>
+                  <Link to="/contact" className='link-menu'><li>Contact us</li></Link>
                 </ul>
             </div>
         </div>

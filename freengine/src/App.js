@@ -1,21 +1,33 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {Route, Routes } from 'react-router-dom'
 import Bottom from './Components/Bottom';
-
 import Footer from './Components/Footer';
-
 import Menu from './Components/Menu';
-
-// import {BrowseRouter as Router, Switch, Route}from 'react-router-dom'
 import Home from './Components/Pages/Home';
+import About from './Components/Pages/About'
+import Services from './Components/Pages/Services';
+import Work from './Components/Pages/Work';
+import Contact from './Components/Pages/Contact';
 function App() {
   return (
     <div>
+  
    
     <Menu/>
-    <Home/>
+    <Routes>
+      <Route exact path='/' element={  <Home /> } />
+      <Route path='/about' element={<About />} />
+      <Route path='/services' element={ <Services />} />
+      <Route path='/work' element={<Work />} />
+      <Route path='/contact' element={<Contact />} />
+    </Routes>
+   
+   
     <Bottom/>
     <Footer/>
+   
+  
   
     </div>
   );

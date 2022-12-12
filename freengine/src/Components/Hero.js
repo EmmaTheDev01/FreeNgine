@@ -2,6 +2,7 @@ import React from 'react'
 import '../App.css'
 import Profile from '../3.png'
 import {FaInstagram, FaLinkedin, FaDiscord, FaTelegram, FaHtml5,FaCss3Alt, FaAndroid, FaReact, FaJsSquare} from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 function Hero() {
   return (
@@ -10,7 +11,7 @@ function Hero() {
             <h1 className='heading'>Free<span className='header-hero'>ngine</span> </h1>
             <h2 className='subheading'>Professional <span className='header-hero'>software</span> developers</h2>
             <p className='paragraph'>Have you thought of elevating your business sitting at home and it work for you? FreeNgine has the best offer, we develop websites, mobile applications and web apps alongside e-commerce systems.</p>
-            <button className='hero-button'>Work with us</button>
+            <Link to="/contact" className='link'><button className='hero-button'>Work with us</button></Link>
             <div className='below-section'>
             <div className='social'>
             <p className='head'>Find us :</p>
