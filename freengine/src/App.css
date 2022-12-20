@@ -40,6 +40,15 @@
   font-size: 2ch;
 
 }
+.dropdown{
+  border: none;
+  font-size: 1.5ch;
+  color: white;
+  background-color: rgb(39, 39, 39);
+}
+.dropdown:focus{
+  outline: none;
+}
 .bar-button{
   float: right;
   display: none;
@@ -261,6 +270,10 @@ margin: auto;
 .sub-header {
   display: block;
   text-align: center
+}
+.description-card{
+  font-size: 1.5ch;
+  padding: 0.4rem;
 }
 
 .services-header {

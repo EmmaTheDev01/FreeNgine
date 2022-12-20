@@ -3,9 +3,9 @@ import './pages.css'
 function Work() {
   return (
     <div className='work'>
-        <div className='container'>
-            Work with us
-        </div>
+      <div className='container'>
+        Work with us
+      </div>
     </div>
 
   )
