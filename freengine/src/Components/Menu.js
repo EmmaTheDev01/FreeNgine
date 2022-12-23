@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState } from 'react';
+
 import Bar from './Bar';
 import Logo from '../Components/2.png'
 import { Link } from 'react-router-dom';
@@ -12,7 +12,7 @@ function Menu() {
    <div className='navbar'>
    <ul className='nav-container'>
     <Link to="/" className='link'>
-    <li className='logo'><img src={Logo} /></li>
+    <li className='logo'><img src={Logo} alt="logo" height="80px"/></li>
     </Link>
     <li className='bar-button'><Bar/></li>
     <Link to="/contact" className='link'>

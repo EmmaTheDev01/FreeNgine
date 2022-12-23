@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaEye, FaLightbulb } from 'react-icons/fa'
 import './pages.css'
-import Image from '../1.png'
+import Image from '../bout.jpg'
 function About() {
   return (
     <div className='about'>
@@ -9,7 +9,7 @@ function About() {
         <div className="about-content">
         <div className="about-photo">
             {/*About image on site */}
-            {/* <img className='about-image' src={Image} /> */}
+        <img className='about-image' src={Image} alt="about image"/>
           </div>
           <div className='about-text'>
             <h1 className="about-header">About us</h1>

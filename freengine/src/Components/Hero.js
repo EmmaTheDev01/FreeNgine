@@ -1,6 +1,6 @@
 import React from 'react'
 import '../App.css'
-import Profile from '../3.png'
+import Profile from '../bg.jpg'
 import {FaInstagram, FaLinkedin, FaDiscord, FaTelegram, FaHtml5,FaCss3Alt, FaAndroid, FaReact, FaJsSquare} from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
@@ -34,7 +34,7 @@ function Hero() {
         </div>
         <div className='right'>
         <div className='box'>
-           <div className='image-box'><img className='image' src= {Profile} /></div> 
+           <div className='image-box'><img className='image' src= {Profile} alt="Hero cover"/></div> 
         </div>
         </div>
         <hr/>

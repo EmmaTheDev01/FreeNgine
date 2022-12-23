@@ -1,6 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Route, Routes } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import Bottom from './Components/Bottom';
 import Footer from './Components/Footer';
 import Menu from './Components/Menu';
@@ -14,23 +14,21 @@ import Contact from './Components/Pages/Contact';
 function App() {
   return (
     <div>
-  
-   
-    <Menu/>
-    <Routes>
-      <Route exact path='/' element={  <Home /> } />
-      <Route path='/about' element={<About />} />
-      <Route path='/services' element={ <Services />} />
-      <Route path='/work' element={<Work />} />
-      <Route path='/contact' element={<Contact />} />
-    </Routes>
-   
-   
-    <Bottom/>
-    <Footer/>
-   
-  
-  
+
+
+      <Menu />
+      <Routes>
+        <Route exact path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/services' element={<Services />} />
+        <Route path='/work' element={<Work />} />
+        <Route path='/contact' element={<Contact />} />
+      </Routes>
+      <Bottom />
+      <Footer />
+
+
+
     </div>
   );
 }

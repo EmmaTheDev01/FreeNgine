@@ -15,7 +15,7 @@
   margin: 0%;
   height: 90px;
   box-sizing: border-box;
-  background-color: rgb(39, 39, 39);
+  background-color: rgb(55,55,55);
   color: white;
 
 }
@@ -40,15 +40,6 @@
   font-size: 2ch;
 
 }
-.dropdown{
-  border: none;
-  font-size: 1.5ch;
-  color: white;
-  background-color: rgb(39, 39, 39);
-}
-.dropdown:focus{
-  outline: none;
-}
 .bar-button{
   float: right;
   display: none;
@@ -63,14 +54,15 @@
 
 .logo {
   float: left;
-  margin-top: -25px;
   cursor: pointer;
+  width: 120px;
  
 }
 .bars{
   margin-top: -25px;
   font-size: 2ch;
 }
+
 
 /*Hero Section CSS*/
 
@@ -79,20 +71,20 @@
   justify-content: flex-start;
   overflow: hidden;
   grid-template-columns: auto auto;
-  height: 60rem;
+  height: 48rem;
   width: 100%;
-  background-color: rgb(39, 39, 39);
+  background-color: rgb(55,55,55);
   right: 20;
   color: white;
 }
 .left {
 
   padding: 10rem;
-  width: 100%;
+  width: 45%;
 }
 
 .right {
-  width: 100%;
+  width: 70%;
   overflow: hidden;
 }
 
@@ -151,26 +143,16 @@ margin: auto;
   position: relative;
   display: flex;
   align-items: flex-start;
-
-  box-shadow: 1px 2px 20px;
-  width: 600px;
-  height: 29rem;
-  background-color: rgba(37, 37, 37, 0.8);
-
-
 }
 
 .image {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  position: relative;
-  width: 600px;
+  position: absolute;
+  width: 1200px;
   object-fit: contain;
-  margin-top: -220px;
-
-  border-radius: 15px;
-  box-shadow: 0px 0px 20px;
+  
 
 }
 

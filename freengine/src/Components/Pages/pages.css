@@ -6,61 +6,104 @@
     background-color: rgb(39, 39, 39);
     color: white;
 }
-.about{
+
+.about {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.company-des{
+
+.company-des {
     padding: 1rem;
     font-size: 6ch;
 }
 
 .about-page {
-    
+
     display: flex;
     flex-wrap: wrap;
-    justify-content:center;
+    justify-content: center;
     padding: 4rem;
     display: block;
 
 
 }
 
-.about-text{
-    padding: 8rem;
-    width: 50%;
+.about-text {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rem;
+    height: 600px;
+    width: 30%;
     border: 1px solid rgb(49, 49, 49);
     background-color: rgb(49, 49, 49);
 }
 
+/* Applying media querries to the About page */
+@media screen and (max-width:1600px) {
+
+    .about-photo {
+        display: block;
+        width: 100%;
+        margin: 1rem;
+
+    }
+
+    .about-image {
+        display: flex;
+        justify-items: center;
+        flex-wrap: wrap;
+        padding: 1rem;
+        object-fit: cover;
+    }
+
+    .about-text {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5rem;
+        height: 600px;
+        width: 80%;
+        border: 1px solid rgb(49, 49, 49);
+        background-color: rgb(49, 49, 49);
+    }
+
+
+
+}
+
 .about-content {
-    margin-left: auto;
-    margin-right: auto;
+
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 80%;
-   
-    
+
+
+
 
 }
-.about-photo{
-    width: 50%;
-    border: 1px solid red;
+
+.about-photo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    height: 600px;
+    overflow: hidden;
 }
-.about-image{
+
+.about-image {
     display: flex;
     justify-items: center;
     flex-wrap: wrap;
-    width: 600px;
+    width: 700px;
     padding: 1rem;
-   
+
 
 }
+
 .about-header {
     font-weight: 900;
     font-size: 5ch;
+    color: rgb(228, 25, 25);
 }
 
 .company-des {
@@ -70,6 +113,7 @@
 }
 
 .mv-section {
+    padding: 2rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -118,29 +162,33 @@
 }
 
 /* Styling the services pages */
-.services{
+.services {
     width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     justify-content: center;
 }
-.set-serv{
+
+.set-serv {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-.all-services{
+
+.all-services {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 2rem;
 }
-.description{
+
+.description {
     width: 40%;
     padding: 8rem;
 }
-.title-serv-des{
+
+.title-serv-des {
     font-size: 3ch;
     padding: 1rem;
     font-weight: 600;
@@ -156,7 +204,8 @@
     box-shadow: 2px 1px 3px 3px rgb(77, 15, 15);
 
 }
-.breadcrumb{
+
+.breadcrumb {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -165,10 +214,12 @@
     font-size: 2ch;
     border-bottom: 1px solid rgb(255, 255, 255);
 }
-.breadcrumb:hover{
+
+.breadcrumb:hover {
     color: rgb(228, 25, 25);
     border-bottom: 1px solid rgb(228, 25, 25);
 }
+
 .form {
     padding: 1rem;
 
@@ -182,7 +233,7 @@
 }
 
 .input {
-   
+
     padding: 1rem;
     display: block;
     width: 375px;
@@ -228,4 +279,31 @@
 .des {
 
     margin: 1rem;
+}
+
+/* Styling the services page's responsivesness*/
+/*Applying media query to the services page */
+@media screen and (max-width: 1000px) {
+    .breadcrumb{
+        padding: 1rem 1rem;
+        font-size: 1.6ch;
+    }
+    .description{
+        padding: 1rem;
+        width: 80%;
+        font-size: 1.5ch;
+    }
+    .request{
+        width: 340px;
+    }
+    .input{
+        padding: 0.4rem;
+        width: 190px;
+    }
+    .clicked-services{
+        font-size: 2ch;
+        font-weight: 900;
+    }
+    
+    
 }
