@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/FreeNgine/static/css/main.810ae1b8.css",
+    "main.js": "/FreeNgine/static/js/main.c314ed9c.js",
+    "static/js/787.12e5471f.chunk.js": "/FreeNgine/static/js/787.12e5471f.chunk.js",
+    "static/media/bout.jpg": "/FreeNgine/static/media/bout.ff26c6f202ee4aea4dc3.jpg",
+    "static/media/4.jpg": "/FreeNgine/static/media/4.50a52bf9fa10c20ea554.jpg",
+    "static/media/bg.jpg": "/FreeNgine/static/media/bg.2be22c072cb8c60b6d9d.jpg",
+    "static/media/5.jpg": "/FreeNgine/static/media/5.2d677d376974e892fa71.jpg",
+    "static/media/3.png": "/FreeNgine/static/media/3.73c2116569f541f85dbf.png",
+    "static/media/2.png": "/FreeNgine/static/media/2.0a9621e421d4603be82b.png",
+    "index.html": "/FreeNgine/index.html",
+    "main.810ae1b8.css.map": "/FreeNgine/static/css/main.810ae1b8.css.map",
+    "main.c314ed9c.js.map": "/FreeNgine/static/js/main.c314ed9c.js.map",
+    "787.12e5471f.chunk.js.map": "/FreeNgine/static/js/787.12e5471f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.810ae1b8.css",
+    "static/js/main.c314ed9c.js"
+  ]
+}
