@@ -18,9 +18,9 @@ function Menu() {
     <Link to="/contact" className='link'>
     <li className='list'>Contact Us</li>
     </Link>
-    {/* <Link to="/work" className='link'>
+    <Link to="/work" className='link'>
     <li className='list'>Our work</li>
-    </Link> */}
+    </Link>
     <Link to="/services" className='link'>
     <li className='list'>Services</li>
     </Link>
