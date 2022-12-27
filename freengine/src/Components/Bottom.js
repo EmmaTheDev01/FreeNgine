@@ -19,7 +19,7 @@ function Bottom() {
             <ul className='bottom-links'>
               <Link to="/" className='link-menu' ><li >Home</li></Link>
               <Link to='/about' className='link-menu'><li >About us</li></Link>
-              <Link to="/services" className='link-menu'><li>Servises</li></Link>
+              <Link to="/services" className='link-menu'><li>Services</li></Link>
               <Link to="/work" className='link-menu'><li>Our Work</li></Link>
               <Link to="/contact" className='link-menu'><li>Contact us</li></Link>
             </ul>
