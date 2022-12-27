@@ -71,21 +71,25 @@
   justify-content: center;
   overflow: hidden;
   grid-template-columns: auto auto;
-  height: 48rem;
+  height: 45rem;
   width: 100%;
   background-color: rgb(55,55,55);
   right: 20;
   color: white;
 }
 .left {
-  position: relative;
-  padding: 10rem;
-  width: 45%;
+  position: absolute;
+  z-index: 9;
+  padding: 6rem;
+  left: 0;
+  width: 50%;
 }
 
 .right {
  
-  width: 70%;
+  width: 100%;
+  opacity: 0.8;
+  right: 0;
 }
 
 .heading {
@@ -94,7 +98,7 @@
   justify-content: flex-start;
   position: relative;
   font-size: 7ch;
-  text-align: start;
+  text-align: center;
   font-family: 'Times New Roman', Times, serif;
 }
 
@@ -107,9 +111,11 @@
 }
 
 .paragraph {
-  width: 420px;
+  width: 800px;
   font-family: 'Courier New', Courier, monospace;
   text-align: start;
+  font-weight: 400;
+  font-size: 2.3ch;
 
 }
 
@@ -123,7 +129,7 @@
 
 .icon {
   position: relative;
-  padding: 0rem 0.rem;
+  padding: 0rem 0.6rem;
   font-size: 3ch;
   cursor: pointer;
 
@@ -151,8 +157,9 @@
   justify-content: flex-start;
   align-items: center;
   position: absolute;
-  width: 1200px;
+  width: 1500px;
   object-fit: contain;
+  opacity: 0.4;
   
 
 }

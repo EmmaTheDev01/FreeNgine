@@ -31,7 +31,7 @@ function Services() {
                     <input className='input' type="text" placeholder="Phone" />
                   </div>
 
-                  <input className='btn-sbmt' type="submit" onClick={() => alert('Your quotation has been received!')} value="Request for a quote" />
+                  <input className='btn-sbmt' type="submit" onClick={() => alert('Your quotation of '+service+ ' has been received!')} value="Request for a quote" />
 
                 </form>
               </div>
