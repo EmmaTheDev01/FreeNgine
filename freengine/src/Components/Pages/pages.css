@@ -51,21 +51,38 @@
     }
 
     .about-image {
-        display: flex;
-        justify-items: center;
-        flex-wrap: wrap;
-        padding: 1rem;
-        object-fit: cover;
+       display: block;
+       width: 100%;
     }
-
     .about-text {
         display: flex;
         flex-wrap: wrap;
         padding: 5rem;
-        height: 600px;
-        width: 60%;
-        border: 1px solid rgb(49, 49, 49);
-        background-color: rgb(49, 49, 49);
+        height: auto;
+       width: 55%;
+    }
+    .mission {
+        padding: 2rem;
+        width: 18rem;
+        border: 1px solid rgb(27, 27, 27);
+        height: auto;
+        border-radius: 12px;
+        margin: 1rem;
+        box-shadow: 1px 1px 8px rgb(80, 80, 80);
+    
+    }
+    
+    
+    .vision {
+        padding: 2rem;
+        width: 18rem;
+        border: 1px solid rgb(27, 27, 27);
+        height: auto;
+        border-radius: 12px;
+        margin: 1rem;
+        box-shadow: 1px 1px 8px rgb(80, 80, 80);
+    
+    
     }
 
 
@@ -202,7 +219,7 @@
     height: auto;
     background-color: rgb(241, 241, 241);
     color: rgb(78, 78, 78);
-    box-shadow: 2px 1px 3px 3px rgb(77, 15, 15);
+    box-shadow: 2px 1px 2px rgb(87, 87, 87);
 
 }
 
@@ -247,7 +264,7 @@
 
 .input:focus {
     border: none;
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid rgb(7, 75, 131);
     outline: none;
 }
 
@@ -262,6 +279,10 @@
     border: 2px solid white;
     color: white;
     font-size: larger;
+}
+
+.btn-sbmt:hover {
+    background-color: black;
 }
 
 
@@ -285,43 +306,50 @@
 /* Styling the services page's responsivesness*/
 /*Applying media query to the services page */
 @media screen and (max-width: 1000px) {
-    .breadcrumb{
+    .breadcrumb {
         padding: 1rem 1rem;
         font-size: 1.6ch;
     }
-    .description{
+
+    .description {
         padding: 1rem;
         width: 80%;
         font-size: 1.5ch;
     }
-    .request{
+
+    .request {
         width: 340px;
     }
-    .input{
+
+    .input {
         padding: 0.4rem;
         width: 190px;
     }
-    .clicked-services{
+
+    .clicked-services {
         font-size: 2ch;
         font-weight: 900;
     }
-    
-    
+
+
 }
+
 /*Styling the contact Us page */
-.contact{
+.contact {
     position: relative;
-    
-    
+
+
 }
-.contact-container{
+
+.contact-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     position: relative;
     padding: 1rem;
 }
-.contact-text{
+
+.contact-text {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -329,33 +357,43 @@
     border: 1px solid rgb(49, 49, 49);
     background-color: rgb(49, 49, 49);
     padding: 2rem;
-    
+
 }
-.Con{
+
+.Con {
     display: block;
 }
-.Contact-header{
+
+.Contact-header {
     display: block;
     color: rgb(228, 25, 25);
 }
-.contact-des{
+
+.contact-des {
     padding: auto;
-    
+
 }
-.contact-details{
+
+.contact-details {
     text-align: start;
 }
 
-
-.contact-form
-{
+.cont-form {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     padding: 4rem;
     width: 50%;
+
 }
-.contact-input{
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-input {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -363,13 +401,13 @@
     width: 230px;
     padding: 0.5rem;
     margin: 0.5rem;
-    background-color: rgb(39, 39, 39); 
+    background-color: rgb(39, 39, 39);
     border: 1px solid white;
     color: white;
     text-align: center;
 }
 
-.message-input{
+.message-input {
     text-align: center;
     width: 480px;
     height: 4rem;
@@ -377,16 +415,18 @@
     background-color: rgb(39, 39, 39);
     border: 1px solid white;
     color: white;
-    
+
 }
-.contact-input:focus{
-    outline: none;
-}
-.message-input:focus{
+
+.contact-input:focus {
     outline: none;
 }
 
-.contact-btn{
+.message-input:focus {
+    outline: none;
+}
+
+.contact-btn {
     width: 10rem;
     height: auto;
     padding: 0.7rem;
@@ -396,12 +436,34 @@
     border: none;
     cursor: pointer;
 }
-.contact-btn:hover{
+
+.contact-btn:hover {
     background-color: black;
     border: 1px solid white;
 }
+
+/*contact page responsiveness */
+@media screen and (max-width: 800px) {
+    .contact-text {
+        display: block;
+        width: 80%;
+    }
+
+    .contact-input {
+
+        width: 200px;
+
+    }
+
+    .message-input {
+        text-align: center;
+        width: 200px;
+    }
+
+}
+
 /*Styling our work page */
-.work-repcards{
+.work-repcards {
     margin-left: auto;
     margin-right: auto;
     padding: 2rem;
@@ -410,13 +472,15 @@
     justify-content: center;
     flex-wrap: wrap;
 }
-.rep-card{
+
+.rep-card {
     margin: 0.5rem;
     width: 18rem;
     border: 1px solid rgb(68, 68, 68);
     padding: 1rem;
 }
-.total{
+
+.total {
     font-style: italic;
     font-size: 7ch;
     color: red;

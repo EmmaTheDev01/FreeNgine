@@ -236,7 +236,7 @@
 }
 
 .card-section {
-  width: 80%;
+  width: 100%;
   height: auto;
   padding: 3rem;
   margin-left: auto;
@@ -275,23 +275,19 @@
 }
 
 .box-service {
-  margin: 1rem;
-  width: 18rem;
-  height: auto;
+  margin: 0.3rem;
+  width: 15rem;
+  height: 20rem;
   padding: 2rem;
   border: 1px solid rgb(70, 69, 69);
   border-radius: 14px;
   background-color: rgb(51, 51, 51);
-
   cursor: pointer;
 }
 
 .box-service:hover {
   border: 1px solid rgb(51, 51, 51);
-  box-shadow: 1px 2px 6px rgb(228, 25, 25);
-  ;
-  transition: 0.8s;
-
+  box-shadow: 1px 2px 6px rgb(43, 30, 30);
 }
 .icon-service{
   font-size: 6ch;
@@ -459,18 +455,27 @@ padding: 4rem;
   width: 18rem;
   height: 15rem;
   overflow: hidden;
-  border: 1px solid rgb(128, 126, 126);
+  border: 1px solid rgb(87, 86, 86);
   margin: 1rem;
   border-radius: 1rem;
-  box-shadow: 5px 2px 8px 2px rgb(90, 90, 90) ;
+  box-shadow: 1px 2px 2px rgb(90, 90, 90) ;
+}
+.url{
+  text-decoration: none;
+  color: red;
+  font-size: 1rem;
+}
+.url:hover{
+  color: white;
 }
 .work-card .content{
   padding: 2rem;
   
 }
 .work-card .head3{
-  font-weight: 900;
+  font-weight: 600;
   font-size: 4ch;
+  color:rgb(228, 25, 25);
 }
 .work-card  .starz{
   display: none;
@@ -488,9 +493,8 @@ padding: 4rem;
 
 .work-card:hover .content {
   padding: 1.5rem;
- 
-  background-color: rgb(255, 255, 255);
-  color: rgb(46, 45, 45);
+  background-color: rgb(44, 44, 44);
+  color: white;
   height: 300px;
 }
 

@@ -1,7 +1,21 @@
-import React from 'react'
+import React, { useRef } from 'react';
 import './pages.css'
 import { FaCity, FaEnvelope, FaMapMarkerAlt, FaPhone, FaPhoneAlt } from 'react-icons/fa'
+import emailjs from '@emailjs/browser';
+
 function Contact() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_xczguke', 'template_vpo0xb5', form.current, 'gm4GNx0WIJRq3ZvK-')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
   return (
     <div className='contact'>
       <div className='contact-container'>
@@ -17,13 +31,15 @@ function Contact() {
             <p><FaMapMarkerAlt /> KK 18 Ave</p>
           </div>
         </div>
-        <div className='contact-form'>
-          <input type="text" className='contact-input' name='firstname' id='fname' placeholder='Enter your firstname'></input>
-          <input type="text" className='contact-input' placeholder='Enter your last name'></input>
-          <input type='email' className='contact-input' placeholder='Enter your E-mail'></input>
-          <input type='text' className='contact-input' placeholder='Enter your phone'></input>
-          <input type='textarea' className='message-input' placeholder='Enter message'></input>
-          <input type='submit' className='contact-btn' value='Send Message'></input>
+        <div className='cont-form'>
+        <form className='contact-form' ref={form} onSubmit={sendEmail}>
+          <input type="text" className='contact-input' name="user_name" id='fname' placeholder='Enter your firstname'></input>
+          <input type="text" className='contact-input' name='user_name2' placeholder='Enter your last name'></input>
+          <input type='email' className='contact-input' name="user_email" placeholder='Enter your E-mail'></input>
+          <input type='text' className='contact-input' name='user_phone' placeholder='Enter your phone'></input>
+          <input type='textarea' className='message-input' name='message' placeholder='Enter message'></input>
+          <input type='submit' onClick={() => alert('Message sent')} className='contact-btn' value='Send Message'></input>
+          </form>
         </div>
       </div>
     </div>
