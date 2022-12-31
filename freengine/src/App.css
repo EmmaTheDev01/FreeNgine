@@ -226,6 +226,26 @@
 .hero-button:hover {
   background-color: rgb(228, 25, 25);
 }
+/*Styling hero's responsiveness */
+@media screen and (max-width: 800px) {
+  .heading {
+    
+    font-size: 5ch;
+  
+  }
+  
+  .subheading {
+  
+    font-size: 3ch;
+   
+  
+  }
+  .paragraph{
+    width: 320px;
+    font-size: 1.8ch;
+  }
+  
+}
 
 /* Styling cards on homepage */
 .services-section {
