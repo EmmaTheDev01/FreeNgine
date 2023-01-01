@@ -461,6 +461,10 @@
         text-align: center;
         width: 200px;
     }
+    .contact-btn {
+        width: 10rem;
+       
+    }
 
 }
 
@@ -488,3 +492,4 @@
     color: red;
     font-weight: 500;
 }
+
