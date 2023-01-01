@@ -428,7 +428,7 @@
 }
 
 .contact-btn {
-    width: 10rem;
+    width: 25rem;
     height: auto;
     padding: 0.7rem;
     background-color: rgb(228, 25, 25);
@@ -441,6 +441,7 @@
 .contact-btn:hover {
     background-color: black;
     border: 1px solid white;
+    width: 25rem;
 }
 
 /*contact page responsiveness */
