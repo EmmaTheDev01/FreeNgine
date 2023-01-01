@@ -29,22 +29,22 @@ function Bottom() {
           <h1 className='bottom-title'>More Information</h1>
           <div className='bottom-nav'>
             <ul className='bottom-links'>
-              <li className='link-menu'>Learn more</li>
-              <li className='link-menu'>WOF Inc</li>
-              <li className='link-menu'>Isange digital</li>
-              <li className='link-menu'>Inventory</li>
+            <a href='https://instagram.com/wofonline' target="_blank"><li className='link-menu'>Learn more</li></a>
+              <a href='https://wofbusiness.company.site' target="_blank"><li className='link-menu'>WOF Inc</li></a>
+              <li className='link-menu'>Our blog</li>
+              <a href='https://isangedigital.com' target="_blank"><li className='link-menu'>Isange digital</li></a>
             </ul>
           </div>
         </div>
       </div>
       <div className='socials'>
         <h1 className='icons-title'>Find us on:</h1>
-        <span className='icon-bottom ig'><FaInstagram /></span>
-        <span className='icon-bottom in'><FaLinkedin /></span>
-        <span className='icon-bottom di'><FaDiscord /></span>
-        <span className='icon-bottom te'><FaTelegram /></span>
-        <span className='icon-bottom git'><FaGithub /></span>
-        <span className='icon-bottom face'><FaFacebook /></span>
+        <a href='https://instagram.com/wofonline' target="_blank"> <span className='icon-bottom ig'><FaInstagram /></span></a>
+        <a href='https://www.linkedin.com/in/emma-habumugisha-133a231b9/' target="_blank"><span className='icon-bottom in'><FaLinkedin /></span></a>
+        <a href='https://discord.com/channels/@me' target="_blank"><span className='icon-bottom di'><FaDiscord /></span></a>
+        <a href='t.me/Xgizxca' target="_blank"><span className='icon-bottom te'><FaTelegram /></span></a>
+        <a href='https://github.com/EmmaTheDev01' target="_blank"><span className='icon-bottom git'><FaGithub /></span></a>
+        <a href='https://facebook.com/wofonline' target="_blank"><span className='icon-bottom face'><FaFacebook /></span></a>
       </div>
     </div>
 

@@ -1,2 +1,4 @@
 # FreeNgine
-This is my new app, first real portifolio project made for freengine
+This is portifolio project made for freengine, This web is made in React Js and bootstrap.
+
+

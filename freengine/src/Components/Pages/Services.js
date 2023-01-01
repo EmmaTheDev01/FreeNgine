@@ -37,7 +37,7 @@ function Services() {
                 <form ref={form} onSubmit={sendEmail}>
                   <div className='left-input'>
                     <input className='input' name="user_names" type="text" placeholder="Names" />
-                    <input className='input' name="service" type="text" value={service} placeholder={service} disabled />
+                    <input className='input' name="service" type="text" value={service} placeholder={service}  />
                   </div>
                   <div className='right-input'>
                     <input className='input' name='user_email' type="email" placeholder="Your Email" />
