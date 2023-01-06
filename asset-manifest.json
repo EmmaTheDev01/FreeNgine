@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/FreeNgine/static/css/main.0e6bd922.css",
-    "main.js": "/FreeNgine/static/js/main.a57a7760.js",
+    "main.css": "/FreeNgine/static/css/main.0e00bcef.css",
+    "main.js": "/FreeNgine/static/js/main.a12f7da2.js",
     "static/js/787.12e5471f.chunk.js": "/FreeNgine/static/js/787.12e5471f.chunk.js",
     "static/media/bout.jpg": "/FreeNgine/static/media/bout.ff26c6f202ee4aea4dc3.jpg",
     "static/media/4.jpg": "/FreeNgine/static/media/4.50a52bf9fa10c20ea554.jpg",
@@ -10,12 +10,12 @@
     "static/media/3.png": "/FreeNgine/static/media/3.73c2116569f541f85dbf.png",
     "static/media/2.png": "/FreeNgine/static/media/2.0a9621e421d4603be82b.png",
     "index.html": "/FreeNgine/index.html",
-    "main.0e6bd922.css.map": "/FreeNgine/static/css/main.0e6bd922.css.map",
-    "main.a57a7760.js.map": "/FreeNgine/static/js/main.a57a7760.js.map",
+    "main.0e00bcef.css.map": "/FreeNgine/static/css/main.0e00bcef.css.map",
+    "main.a12f7da2.js.map": "/FreeNgine/static/js/main.a12f7da2.js.map",
     "787.12e5471f.chunk.js.map": "/FreeNgine/static/js/787.12e5471f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e6bd922.css",
-    "static/js/main.a57a7760.js"
+    "static/css/main.0e00bcef.css",
+    "static/js/main.a12f7da2.js"
   ]
 }
