@@ -9,6 +9,7 @@ import About from './Components/Pages/About'
 import Services from './Components/Pages/Services';
 import Work from './Components/Pages/Work';
 import Contact from './Components/Pages/Contact';
+import Default from './Components/Default';
 
 
 function App() {
@@ -18,11 +19,12 @@ function App() {
 
       <Menu />
       <Routes>
-        <Route exact path='/' element={<Home />} />
+        <Route exact path='/' redirect to=' /FreeNgine' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/services' element={<Services />} />
         <Route path='/work' element={<Work />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='*' element={<Default/>} />
       </Routes>
       <Bottom />
       <Footer />

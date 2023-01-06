@@ -1,11 +1,6 @@
 import React, { useRef } from "react";
 import "./pages.css";
-import {
-  FaCity,
-  FaEnvelope,
-  FaMapMarkerAlt,
-  FaPhoneAlt,
-} from "react-icons/fa";
+import { FaCity, FaEnvelope, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
 // import { useForm } from "react-hook-form";
 
@@ -34,30 +29,28 @@ function Contact() {
   // const { sendMessage }= useForm();
 
   //defining create notification function
-  function createNotification(){
-    const fname = document.getElementById('fname');
-    const lname = document.getElementById('lname');
-    const emailText = document.getElementById('email');
-    const phone = document.getElementById('phone');
-    const message = document.getElementById('message');
+  function createNotification() {
+    const fname = document.getElementById("fname");
+    const lname = document.getElementById("lname");
+    const emailText = document.getElementById("email");
+    const phone = document.getElementById("phone");
+    const message = document.getElementById("message");
 
-    const notification = document.getElementById('notification');
-    const p = document.createElement('p');
+    const notification = document.getElementById("notification");
+    const p = document.createElement("p");
     notification.append(p);
 
-    if(emailText.value !== "" && message.value !==""){
-      p.innerText ="Message sent succesfully!";
-      p.style.color ='green';
-    }
-    else{
-      p.innerText ="Please fill out the form";
-      p.style.color ='red';
-      fname.style.border ='1px solid red';
-      lname.style.border ='1px solid red';
-      emailText.style.border ='1px solid red';
-      phone.style.border ='1px solid red';
-      message.style.border ='1px solid red';
-
+    if (emailText.value !== "" && message.value !== "") {
+      p.innerText = "Message sent succesfully!";
+      p.style.color = "green";
+    } else {
+      p.innerText = "Please fill out the form";
+      p.style.color = "red";
+      fname.style.border = "1px solid red";
+      lname.style.border = "1px solid red";
+      emailText.style.border = "1px solid red";
+      phone.style.border = "1px solid red";
+      message.style.border = "1px solid red";
     }
   }
 
@@ -88,9 +81,7 @@ function Contact() {
           </div>
         </div>
         <div className="cont-form">
-        <div className='notification' id="notification">
-
-        </div>
+          <div className="notification" id="notification"></div>
           <form
             className="contact-form"
             ref={form}
