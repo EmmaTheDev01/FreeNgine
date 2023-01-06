@@ -29,10 +29,10 @@ function Bottom() {
           <h1 className='bottom-title'>More Information</h1>
           <div className='bottom-nav'>
             <ul className='bottom-links'>
-            <a href='https://instagram.com/wofonline' target="_blank"><li className='link-menu'>Learn more</li></a>
-              <a href='https://wofbusiness.company.site' target="_blank"><li className='link-menu'>WOF Inc</li></a>
+            <a className='refer' href='https://instagram.com/wofonline' target="_blank"><li className='link-menu'>Learn more</li></a>
+              <a  className='refer' href='https://wofbusiness.company.site' target="_blank"><li className='link-menu'>WOF Inc</li></a>
               <li className='link-menu'>Our blog</li>
-              <a href='https://isangedigital.com' target="_blank"><li className='link-menu'>Isange digital</li></a>
+              <a  className='refer' href='https://isangedigital.com' target="_blank"><li className='link-menu'>Isange digital</li></a>
             </ul>
           </div>
         </div>

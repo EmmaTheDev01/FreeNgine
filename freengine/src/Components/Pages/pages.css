@@ -446,11 +446,11 @@
 
 /*contact page responsiveness */
 @media screen and (max-width: 800px) {
+ 
     .contact-text {
         display: block;
-        width: 80%;
+        width: 22rem;
     }
-
     .contact-input {
 
         width: 200px;
@@ -464,6 +464,13 @@
     .contact-btn {
         width: 10rem;
        
+    }
+    .contact-btn:hover {
+        width: 10rem;
+       
+    }
+    .notification{
+       width: 25rem;
     }
 
 }

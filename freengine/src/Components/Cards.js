@@ -10,7 +10,6 @@ function Cards() {
 
         <div className='cards'>
           <div className='box-service'>
-
             <span className='icon-service'><FaCode /></span>
             <h4 className='title-service'>Web development</h4>
             <p className='description-card'>We develop modern websites which adopts modern technology and multi purpose functionality</p>
