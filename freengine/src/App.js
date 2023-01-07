@@ -19,7 +19,7 @@ function App() {
 
       <Menu />
       <Routes>
-        <Route exact path='/FreeNgine' redirect to=' /FreeNgine' element={<Home />} />
+        <Route exact path='/FreeNgine' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/services' element={<Services />} />
         <Route path='/work' element={<Work />} />
