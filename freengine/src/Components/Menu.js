@@ -11,7 +11,7 @@ function Menu() {
   
    <div className='navbar'>
    <ul className='nav-container'>
-    <Link to="/" className='link'>
+    <Link to="/FreeNgine" className='link'>
     <li className='logo'><img src={Logo} alt="logo" height="80px"/></li>
     </Link>
     <li className='bar-button'><Bar/></li>
