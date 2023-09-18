@@ -302,8 +302,8 @@
 
 /*Styling the boottom navigation */
 .bottom {
-  background-color: rgb(236, 231, 231);
-  color: rgb(70, 69, 69);
+  background-color: rgb(70, 69, 69);
+  color: white;
   padding: 2rem;
 }
 
@@ -314,7 +314,7 @@
   margin-left: auto;
   justify-content: center;
   margin-right: auto;
-  border-bottom: 1px solid rgb(48, 47, 47);
+  border-bottom: 2px solid rgb(179, 179, 179);
 }
 
 .bottom-left {
@@ -335,7 +335,7 @@
 
 .link-menu {
   text-decoration: none;
-  color: rgb(37, 36, 37);
+  color: white;
   padding: 0.4rem;
 }
 .link-menu:hover {
@@ -354,7 +354,7 @@
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  border-bottom: 1px solid rgb(48, 47, 47);
+  border-bottom: 2px solid rgb(179, 179, 179);
   height: auto;
 }
 

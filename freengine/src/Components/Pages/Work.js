@@ -48,7 +48,7 @@ function Work() {
         </div>
 
         <div className='rep-card'>
-        <span className='total'>2+</span>
+        <span className='total'>10+</span>
         <h3>Information blogs</h3>
         <p>We have more than 2 info blogs developed</p>
         </div>
